@@ -14,33 +14,27 @@ public class AuthenticationService {
     }
 
     public boolean logIn(String username, String password) {
-        for (User user : userDao.listAll()) {
-            if (user.getUsername().equals(username)
-                    && user.getPassword().equals(password)) {
-                return true;
-            }
+        User user = userDao.findByName(username);
+        //for (User user : userDao.listAll()) {
+        if (user.getUsername().equals(username) && user.getPassword().equals(password)) {
+            return true;
+            //    }
         }
-
         return false;
     }
 
     public boolean createUser(String username, String password) {
-        if (userDao.findByName(username) != null) {
+        if (!invalid(username, password)) {
+            userDao.add(new User(username, password));
+            return true;
+        } else {
             return false;
         }
-
-        if (invalid(username, password)) {
-            return false;
-        }
-
-        userDao.add(new User(username, password));
-
-        return true;
     }
 
     private boolean invalid(String username, String password) {
         // validity check of username and password
-        if (password.length()<8 || !password.matches(".*\\d+.*") || username.length()<3 || userDao.listAll().contains(username)){
+        if (password.length() < 8 || !password.matches(".*\\d+.*") || username.length() < 3 || userDao.listAll().contains(username)) {
             return true;
         }
         return false;

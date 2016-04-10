@@ -27,7 +27,6 @@ public class App {
 
     private boolean onko() {
         String command = io.readLine(">");
-
         if (command.isEmpty()) {
             return false;
         } else {
@@ -69,8 +68,7 @@ public class App {
     public static void main(String[] args) {
         ApplicationContext ctx = new FileSystemXmlApplicationContext("src/main/resources/spring-context.xml");
 
-        App application = ctx.getBean(App.class
-        );
+        App application = ctx.getBean(App.class);
         application.run();
 //        UserDao dao = new InMemoryUserDao();
 //        IO io = new ConsoleIO();
