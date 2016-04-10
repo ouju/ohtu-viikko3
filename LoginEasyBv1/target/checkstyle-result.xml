@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="C:\Users\Outi\Documents\hy\ohtu\ohtu-viikko3\LoginEasyBv1\src\main\java\ohtu\App.java">
+<error line="26" column="5" severity="error" message="Metodin pituus on 27 riviä (suurin sallittu on 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="C:\Users\Outi\Documents\hy\ohtu\ohtu-viikko3\LoginEasyBv1\src\main\java\ohtu\data_access\InMemoryUserDao.java">
+</file>
+<file name="C:\Users\Outi\Documents\hy\ohtu\ohtu-viikko3\LoginEasyBv1\src\main\java\ohtu\data_access\UserDao.java">
+</file>
+<file name="C:\Users\Outi\Documents\hy\ohtu\ohtu-viikko3\LoginEasyBv1\src\main\java\ohtu\domain\User.java">
+</file>
+<file name="C:\Users\Outi\Documents\hy\ohtu\ohtu-viikko3\LoginEasyBv1\src\main\java\ohtu\io\ConsoleIO.java">
+</file>
+<file name="C:\Users\Outi\Documents\hy\ohtu\ohtu-viikko3\LoginEasyBv1\src\main\java\ohtu\io\IO.java">
+</file>
+<file name="C:\Users\Outi\Documents\hy\ohtu\ohtu-viikko3\LoginEasyBv1\src\main\java\ohtu\io\StubIO.java">
+</file>
+<file name="C:\Users\Outi\Documents\hy\ohtu\ohtu-viikko3\LoginEasyBv1\src\main\java\ohtu\services\AuthenticationService.java">
+<error line="27" column="5" severity="error" message="Metodin pituus on 13 riviä (suurin sallittu on 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+</checkstyle>
