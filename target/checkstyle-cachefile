@@ -1,10 +1,9 @@
-#Sun Apr 10 22:27:02 EEST 2016
-C\:\\Users\\Outi\\Documents\\hy\\ohtu\\ohtu-viikko3\\src\\main\\java\\ohtu\\data_access\\UserDao.java=1460303506452
-C\:\\Users\\Outi\\Documents\\hy\\ohtu\\ohtu-viikko3\\src\\main\\java\\ohtu\\domain\\User.java=1460303506452
-C\:\\Users\\Outi\\Documents\\hy\\ohtu\\ohtu-viikko3\\src\\main\\java\\ohtu\\io\\StubIO.java=1460303506467
-C\:\\Users\\Outi\\Documents\\hy\\ohtu\\ohtu-viikko3\\src\\main\\java\\ohtu\\App.java=1460303506452
-C\:\\Users\\Outi\\Documents\\hy\\ohtu\\ohtu-viikko3\\src\\main\\java\\ohtu\\io\\ConsoleIO.java=1460303506467
+#Sun Apr 10 23:33:34 EEST 2016
 C\:\\Users\\Outi\\Documents\\hy\\ohtu\\ohtu-viikko3\\src\\main\\java\\ohtu\\data_access\\InMemoryUserDao.java=1460303506452
 C\:\\Users\\Outi\\Documents\\hy\\ohtu\\ohtu-viikko3\\src\\main\\java\\ohtu\\io\\IO.java=1460303506467
-C\:\\Users\\Outi\\Documents\\hy\\ohtu\\ohtu-viikko3\\src\\main\\java\\ohtu\\services\\AuthenticationService.java=1460311397624
-configuration*?=4DFA6E596347A9A6A12EE8B49ADAD1AC2679E01A
+C\:\\Users\\Outi\\Documents\\hy\\ohtu\\ohtu-viikko3\\src\\main\\java\\ohtu\\data_access\\FileUserDAO.java=1460320291547
+C\:\\Users\\Outi\\Documents\\hy\\ohtu\\ohtu-viikko3\\src\\main\\java\\ohtu\\io\\ConsoleIO.java=1460303506467
+C\:\\Users\\Outi\\Documents\\hy\\ohtu\\ohtu-viikko3\\src\\main\\java\\ohtu\\data_access\\UserDao.java=1460303506452
+C\:\\Users\\Outi\\Documents\\hy\\ohtu\\ohtu-viikko3\\src\\main\\java\\ohtu\\io\\StubIO.java=1460303506467
+C\:\\Users\\Outi\\Documents\\hy\\ohtu\\ohtu-viikko3\\src\\main\\java\\ohtu\\domain\\User.java=1460303506452
+configuration*?=CD89FE270D15709F61AC989D925CABF1D3988257
