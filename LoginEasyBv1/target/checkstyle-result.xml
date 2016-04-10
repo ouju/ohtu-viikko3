@@ -1,21 +1,138 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="6.11.2">
 <file name="C:\Users\Outi\Documents\hy\ohtu\ohtu-viikko3\LoginEasyBv1\src\main\java\ohtu\App.java">
-<error line="26" column="5" severity="error" message="Metodin pituus on 27 riviä (suurin sallittu on 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="0" severity="error" message="Puuttuu package-info.java tiedosto." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="9" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="11" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="12" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="14" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="14" column="16" severity="error" message="Parametri io pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="14" column="19" severity="error" message="&apos;io&apos; piilottaa muuttujan." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="14" column="23" severity="error" message="Parametri auth pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="14" column="45" severity="error" message="&apos;auth&apos; piilottaa muuttujan." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="19" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="19" column="5" severity="error" message="Metodia &apos;ask&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="26" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="26" column="5" severity="error" message="Metodia &apos;run&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="36" severity="error" message="Rivi on pidempi kuin 80 merkkiä." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="54" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="54" column="29" severity="error" message="Parametri args pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="60" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="62" severity="error" message="Rivi on pidempi kuin 80 merkkiä." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="64" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="65" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 </file>
 <file name="C:\Users\Outi\Documents\hy\ohtu\ohtu-viikko3\LoginEasyBv1\src\main\java\ohtu\data_access\InMemoryUserDao.java">
+<error line="0" severity="error" message="Puuttuu package-info.java tiedosto." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="7" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="9" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="11" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="14" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" column="5" severity="error" message="Metodia &apos;listAll&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="21" column="5" severity="error" message="Metodia &apos;findByName&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="22" column="28" severity="error" message="Parametri name pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="32" column="5" severity="error" message="Metodia &apos;add&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="33" column="21" severity="error" message="Parametri user pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="37" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="37" column="5" severity="error" message="Metodia &apos;setUsers&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="37" column="26" severity="error" message="Parametri users pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="37" column="37" severity="error" message="&apos;users&apos; piilottaa muuttujan." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="41" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="41" column="5" severity="error" message="Metodia &apos;getUsers&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 </file>
 <file name="C:\Users\Outi\Documents\hy\ohtu\ohtu-viikko3\LoginEasyBv1\src\main\java\ohtu\data_access\UserDao.java">
+<error line="7" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="8" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="9" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="10" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 </file>
 <file name="C:\Users\Outi\Documents\hy\ohtu\ohtu-viikko3\LoginEasyBv1\src\main\java\ohtu\domain\User.java">
+<error line="0" severity="error" message="Puuttuu package-info.java tiedosto." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="3" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="5" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="6" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="8" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="8" column="17" severity="error" message="Parametri username pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="8" column="24" severity="error" message="&apos;username&apos; piilottaa muuttujan." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="8" column="34" severity="error" message="Parametri password pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="8" column="41" severity="error" message="&apos;password&apos; piilottaa muuttujan." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="13" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="13" column="5" severity="error" message="Metodia &apos;getPassword&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="17" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="17" column="5" severity="error" message="Metodia &apos;getUsername&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
 </file>
 <file name="C:\Users\Outi\Documents\hy\ohtu\ohtu-viikko3\LoginEasyBv1\src\main\java\ohtu\io\ConsoleIO.java">
+<error line="0" severity="error" message="Puuttuu package-info.java tiedosto." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="6" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="7" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="8" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="9" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="9" column="5" severity="error" message="Metodia &apos;print&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="9" column="23" severity="error" message="Parametri toPrint pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="13" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="13" column="5" severity="error" message="Metodia &apos;readInt&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="13" column="24" severity="error" message="Parametri prompt pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="14" column="32" severity="error" message="&apos;+&apos;:ta ei edellä välilyönti." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="14" column="33" severity="error" message="&apos;+&apos;:ta ei seuraa välilyönti." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="18" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="18" column="5" severity="error" message="Metodia &apos;readLine&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="18" column="28" severity="error" message="Parametri prompt pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="19" column="32" severity="error" message="&apos;+&apos;:ta ei edellä välilyönti." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="19" column="33" severity="error" message="&apos;+&apos;:ta ei seuraa välilyönti." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="22" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
 </file>
 <file name="C:\Users\Outi\Documents\hy\ohtu\ohtu-viikko3\LoginEasyBv1\src\main\java\ohtu\io\IO.java">
+<error line="4" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="5" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="6" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="7" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
 </file>
 <file name="C:\Users\Outi\Documents\hy\ohtu\ohtu-viikko3\LoginEasyBv1\src\main\java\ohtu\io\StubIO.java">
+<error line="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="7" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="8" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="9" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="11" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="11" column="19" severity="error" message="Parametri values pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="16" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="16" column="5" severity="error" message="Metodia &apos;print&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="16" column="23" severity="error" message="Parametri toPrint pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="20" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="20" column="5" severity="error" message="Metodia &apos;readInt&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="20" column="24" severity="error" message="Parametri prompt pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="25" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="25" column="5" severity="error" message="Metodia &apos;getPrints&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="29" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="29" column="5" severity="error" message="Metodia &apos;readLine&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="29" column="28" severity="error" message="Parametri prompt pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
 </file>
 <file name="C:\Users\Outi\Documents\hy\ohtu\ohtu-viikko3\LoginEasyBv1\src\main\java\ohtu\services\AuthenticationService.java">
-<error line="27" column="5" severity="error" message="Metodin pituus on 13 riviä (suurin sallittu on 10)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="0" severity="error" message="Puuttuu package-info.java tiedosto." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="4" column="8" severity="error" message="Käyttämätön import - java.util.ArrayList." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="5" column="8" severity="error" message="Käyttämätön import - java.util.List." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="8" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocTypeCheck"/>
+<error line="10" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="12" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="12" column="34" severity="error" message="Parametri userDao pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="12" column="42" severity="error" message="&apos;userDao&apos; piilottaa muuttujan." source="com.puppycrawl.tools.checkstyle.checks.coding.HiddenFieldCheck"/>
+<error line="16" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="16" column="5" severity="error" message="Metodia &apos;logIn&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="16" column="26" severity="error" message="Parametri username pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="16" column="43" severity="error" message="Parametri password pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="27" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="27" column="5" severity="error" message="Metodia &apos;createUser&apos; ei ole suunniteltu laajennettavaksi - pitäisi olla abstrakti, final tai tyhjä." source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="27" column="31" severity="error" message="Parametri username pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="27" column="48" severity="error" message="Parametri password pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="41" column="5" severity="error" message="Javadoc-kommentti puuttuu." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="41" column="29" severity="error" message="Parametri username pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="41" column="46" severity="error" message="Parametri password pitäisi olla lopullinen." source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="43" severity="error" message="Rivi on pidempi kuin 80 merkkiä." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="43" column="30" severity="error" message="&apos;&lt;&apos;:ta ei edellä välilyönti." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="43" column="31" severity="error" message="&apos;8&apos; on maaginen numero." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="43" column="31" severity="error" message="&apos;&lt;&apos;:ta ei seuraa välilyönti." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="43" column="86" severity="error" message="&apos;&lt;&apos;:ta ei edellä välilyönti." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="43" column="87" severity="error" message="&apos;3&apos; on maaginen numero." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="43" column="87" severity="error" message="&apos;&lt;&apos;:ta ei seuraa välilyönti." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="43" column="129" severity="error" message="&apos;{&apos;:ta ei edellä välilyönti." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
 </file>
 </checkstyle>
